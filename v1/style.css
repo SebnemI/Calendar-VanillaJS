@@ -29,7 +29,7 @@ button {
   color: #d36c6c;
 }
 #container {
-  width: 420px;
+  width: 770px;
 }
 #weekdays {
   width: 100%;
@@ -37,21 +37,19 @@ button {
   color: #247ba0;
 }
 #weekdays div {
-  width: 50px;
+  width: 100px;
   padding: 10px;
-  align-self: center;
 }
 #calendar {
   width: 100%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid #d36c6c;
 }
 .day {
-  width: 50px;
+  width: 100px;
   padding: 10px;
-  height: 50px;
+  height: 100px;
   cursor: pointer;
   box-sizing: border-box;
   background-color: white;
@@ -66,7 +64,7 @@ button {
 }
 
 .day + #currentDay {
-  background-color: #58bae4;
+  background-color: #e8f4fa;
 }
 .event {
   font-size: 10px;
